@@ -1,0 +1,24 @@
+header {
+  position: relative;
+  padding: 600px 0;
+  background-image: url("../images/header.png"), url("../images/cover.png");
+  background-position: 50% 40%, top;
+  background-repeat: no-repeat;
+  background-size: 50%, cover;
+}
+@media (max-width: 1550px) {
+  header {
+    background-position: 50% 40%, top;
+  }
+}
+@media (max-width: 1100px) {
+  header {
+    background-size: 55%, cover;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    background-size: 95%, cover;
+  }
+}
